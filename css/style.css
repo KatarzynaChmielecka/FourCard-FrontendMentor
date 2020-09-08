@@ -5,11 +5,14 @@
 }
 
 body {
-    background-color: hsl(0, 0%, 98%);
+    background-color: #FAFAFA;
 }
 
+
+/* --- HEADER SECTION --- */
+
 .header {
-    color: hsl(234, 12%, 34%);
+    color: #4C4E61;
     width: 100%;
     height: 150px;
     display: flex;
@@ -37,71 +40,18 @@ body {
     display: flex;
     align-items: center;
     font-size: 1.5rem;
-    color: hsl(229, 6%, 66%);
+    color: #A3A5AE;
     font-weight: 200;
     width: 505px;
     text-align: center;
 }
 
-.card {
-    width: 290px;
-    height: 235px;
-    border-radius: 5px;
-    box-shadow: 0px 19px 45px -5px hsl(229, 6%, 66%);
-    position: relative;
-    padding: 10px 30px 0 30px;
-    margin: 0;
-    background: #ffffff;
-}
 
-.content-card {
-    font-size: 1.3rem;
-    color: hsl(229, 6%, 66%);
-}
-
-.card-supervisor {
-    border-top: 4px solid hsl(180, 62%, 55%);
-}
-
-.card-teamBuilder {
-    border-top: 4px solid hsl(0, 78%, 62%);
-    margin: 0 0 30px 0;
-}
-
-.card-karma {
-    border-top: 4px solid hsl(34, 97%, 64%);
-}
-
-.card-calculator {
-    border-top: 4px solid hsl(212, 86%, 64%);
-}
-
-.heading1 {
-    font-size: 1.8rem;
-    font-weight: 600;
-    color: #525461;
-}
-
-.icon {
-    position: absolute;
-    bottom: 30px;
-    right: 30px;
-}
-
-.attribution {
-    font-size: 1.1rem;
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
+/* --- MAIN SECTION --- */
 
 .content {
     display: flex;
     flex-direction: row;
-    /* padding: 8px; */
-    /* max-height: 700px; */
     align-items: center;
     justify-content: center;
 }
@@ -117,6 +67,66 @@ body {
     justify-content: center;
     flex-direction: column;
 }
+
+.card {
+    width: 290px;
+    height: 235px;
+    border-radius: 5px;
+    box-shadow: 0px 19px 45px -5px #A3A5AE;
+    position: relative;
+    padding: 10px 30px 0 30px;
+    margin: 0;
+    background: #ffffff;
+}
+
+.content-card {
+    font-size: 1.3rem;
+    color: #A3A5AE;
+}
+
+.heading1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #525461;
+}
+
+.icon {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.card-supervisor {
+    border-top: 4px solid #45D3D3;
+}
+
+.card-teamBuilder {
+    border-top: 4px solid #EA5353;
+    margin: 0 0 30px 0;
+}
+
+.card-karma {
+    border-top: 4px solid #FCAF4A;
+}
+
+.card-calculator {
+    border-top: 4px solid #549EF2;
+}
+
+
+/* --- FOOTER SECTION --- */
+
+.attribution {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+/* --- MEDIA QUERIES SECTION --- */
 
 @media screen and (max-width: 1150px) {
     .card {
