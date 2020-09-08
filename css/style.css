@@ -1,0 +1,139 @@
+:root {
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+    /* 62.5%=10px*/
+}
+
+body {
+    background-color: hsl(0, 0%, 98%);
+}
+
+.header {
+    color: hsl(234, 12%, 34%);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 90px auto 35px auto;
+}
+
+.header-span1 {
+    font-size: 3rem;
+    font-weight: 200;
+    letter-spacing: 2px;
+    color: #514F5A;
+}
+
+.header-span2 {
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #505068;
+    margin: 0 0 10px 0;
+}
+
+.header-span3 {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    color: hsl(229, 6%, 66%);
+    font-weight: 200;
+    width: 505px;
+    text-align: center;
+}
+
+.card {
+    width: 290px;
+    height: 235px;
+    border-radius: 5px;
+    box-shadow: 0px 19px 45px -5px hsl(229, 6%, 66%);
+    position: relative;
+    padding: 10px 30px 0 30px;
+    margin: 0;
+    background: #ffffff;
+}
+
+.content-card {
+    font-size: 1.3rem;
+    color: hsl(229, 6%, 66%);
+}
+
+.card-supervisor {
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.card-teamBuilder {
+    border-top: 4px solid hsl(0, 78%, 62%);
+    margin: 0 0 30px 0;
+}
+
+.card-karma {
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.card-calculator {
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+.heading1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #525461;
+}
+
+.icon {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.attribution {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    /* padding: 8px; */
+    /* max-height: 700px; */
+    align-items: center;
+    justify-content: center;
+}
+
+.content-wrapper {
+    padding: 15px;
+    justify-content: center;
+}
+
+.content-wrapper-2 {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 375px) {
+    .card {
+        width: 250px;
+        height: 205px;
+    }
+    .content {
+        flex-direction: column;
+    }
+    .header-span1,
+    .header-span2 {
+        font-size: 2rem;
+    }
+    .header {
+        width: 310px;
+    }
+    .header-span3 {
+        width: 310px;
+    }
+}
