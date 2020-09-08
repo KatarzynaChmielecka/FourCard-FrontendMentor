@@ -1,4 +1,4 @@
-Live version: https://katarzynachmielecka.github.io/Four-Card-FrontendMentor/
+Live version: https://katarzynachmielecka.github.io/FourCard-FrontendMentor/
 
 This project is Frontend Mentor challenge. Code is mine.
 
