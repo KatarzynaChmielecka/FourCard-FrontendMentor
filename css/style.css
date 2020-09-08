@@ -118,6 +118,34 @@ body {
     flex-direction: column;
 }
 
+@media screen and (max-width: 1150px) {
+    .card {
+        width: 250px;
+        height: 205px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .content {
+        flex-direction: column;
+    }
+    .card {
+        width: 290px;
+        height: 235px;
+    }
+}
+
+@media screen and (max-width: 505px) {
+    .header-span1,
+    .header-span2 {
+        font-size: 2rem;
+    }
+    .header,
+    .header-span3 {
+        width: 310px;
+    }
+}
+
 @media screen and (max-width: 375px) {
     .card {
         width: 250px;
@@ -125,15 +153,5 @@ body {
     }
     .content {
         flex-direction: column;
-    }
-    .header-span1,
-    .header-span2 {
-        font-size: 2rem;
-    }
-    .header {
-        width: 310px;
-    }
-    .header-span3 {
-        width: 310px;
     }
 }
