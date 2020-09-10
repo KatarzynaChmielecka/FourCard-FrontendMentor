@@ -18,20 +18,20 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 90px auto 35px auto;
+    margin: 90px auto 60px auto;
 }
 
 .header-span1 {
-    font-size: 3rem;
+    font-size: 3.63rem;
     font-weight: 200;
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
     color: #514F5A;
 }
 
 .header-span2 {
-    font-size: 3rem;
+    font-size: 3.63rem;
     font-weight: 600;
-    letter-spacing: 3px;
+    /* letter-spacing: 3px; */
     color: #505068;
     margin: 0 0 10px 0;
 }
@@ -41,7 +41,7 @@ body {
     align-items: center;
     font-size: 1.5rem;
     color: #A3A5AE;
-    font-weight: 200;
+    font-weight: 400;
     width: 505px;
     text-align: center;
 }
